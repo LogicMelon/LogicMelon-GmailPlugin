@@ -1,0 +1,202 @@
+﻿.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #e53c5c;
+    background: #18a689;
+}
+
+html {
+    height: 537px;
+}
+
+body {
+    background-image: url(../../images/logicmelonlogo.png);
+    background-position: top 15px right 15px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin: 5px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #333;
+    height: 535px;
+}
+
+h2 {
+    margin: 7px 5px 3px;
+}
+
+button {
+}
+
+#datacolumn {
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+#formcolumn {
+    width: 50%;
+    height: 100px;
+    float: right;
+}
+
+#responseDiv {
+    width: 700px;
+    color: #333;
+    margin: 60px 5px 0px;
+    padding: 3px;
+}
+
+#emailAddress {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+}
+
+td {
+    vertical-align: top;
+}
+
+div.jobdetails {
+    position: relative;
+    height: 121px;
+    overflow: auto;
+    background-color: #eee;
+}
+
+div.candidateDetailsDiv {
+    max-height: 270px;
+    overflow: auto;
+    box-shadow: 3px 3px 3px #888888;
+    background-color: #eee;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+div.CVDiv {
+    max-height: 215px;
+    height: auto;
+    overflow: auto;
+    box-shadow: 3px 3px 3px #888888;
+    background-color: #eee;
+    padding: 3px;
+    border-radius: 5px;
+    width: 335px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#searchbox {
+    border-radius: 5px;
+}
+
+
+
+div.rh-content {
+    max-height: 485px;
+    overflow: auto;
+    box-shadow: 3px 3px 3px #888888;
+    background-color: #eee;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.dateDiv {
+}
+
+.overflow {
+    height: 180px;
+}
+
+#btnAddToCorrespondence, #btnPreview {
+    margin-top: 8px;
+}
+
+#noteForm {
+    border-top: 1px solid #333;
+    margin-top: 8px;
+    padding-top: 8px;
+}
+
+button:disabled:hover,
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #999999;
+}
+
+#infoicon,
+#expandicon,
+#downloadicon,
+#nextButton,
+#backButton{
+    color: #18a689;
+}
+
+#nextButton {
+    float: right;
+    margin: 4px 5px 0;
+}
+#backButton {
+    float: right;
+    margin: 4px 5px 0;
+}
+    #infoicon:hover,
+    #expandicon:hover,
+    #downloadicon:hover,
+    #nextButton:hover,
+    #backButton:hover {
+        color: #e53c5c;
+    }
+
+.highlight {
+    background-color: yellow;
+}
+
+.sliderHolder {
+    float: right;
+    margin: 8px 7px 0px 5px;
+}
+
+#slider {
+    display: none;
+    width: 30px;
+    margin: 3px 8px 0px;
+}
+
+h3.notShowing {
+    display: none !important;
+}
+
+h3.notShowingShowing {
+    display: block !important;
+}
+
+h3.showing {
+    display: block;
+}
+
+#searchResultsCount {
+    float: right;
+    padding: 0 5px;
+    margin-top: 3px;
+}
+
+.nonselect, h2 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#searchbox {
+    border: 1px solid #c5c5c5;
+    font-size: 12px;
+    padding: 2px 3px;
+}
+
