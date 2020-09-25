@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "popup.min.js",
+    "inputFiles": [
+      "popup.js"
+    ]
+  }
+]

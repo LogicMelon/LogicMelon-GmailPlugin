@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>LogicMelon</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="AUTHOR" content="Pasturenzi Francesco">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta http-equiv="PRAGMA" content="NO-CACHE">
+    <meta name="ROBOTS" content="NONE,NOARCHIVE">
+    <meta name="GOOGLEBOT" content="NOARCHIVE">
+
+    <link type="text/css" rel="stylesheet" href="js/jquery-ui.css" />
+    <link type="text/css" rel="stylesheet" href="static/css/all.css" /><!-- Font Awesome-->
+    <link href="static/css/logicmelon.css" rel="stylesheet" />
+    
+
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    
+</head>
+<body>
+    <span id="emailAddress" class="nonselect"></span>
+    <div id="responseDiv">
+        <div id="datacolumn">
+            <div id="response_parse_html"></div>
+            <div id="cvbox"></div>
+        </div>
+        <div id="formcolumn">
+            <div class="sliderHolder nonselect">Show: 5 <div id="slider"></div> all</div>
+            <h2>Application history <i class="fas fa-info-circle" id="infoicon" title="Information"></i></h2>
+            <div class="rh-content">
+                <div id="application_parse_html">
+                    
+                </div>
+                <div id="addEmailToCorrespondence">
+                    <button id="btnPreview" class="ui-button ui-widget ui-corner-all">Preview</button>
+                    <button id="btnAddToCorrespondence" class="ui-button ui-widget ui-corner-all" style="float: right;" disabled>Attach email to LogicMelon Application</button>
+                    <div style="clear: both;"></div>
+                </div>
+
+                <div id="noteForm">
+                    <!--<h2>Add note</h2>-->
+                    <input type="hidden" id="hidAdvertCandidateId" value="0" />
+                    <input type="hidden" id="hidAdvertId" value="0" />
+                    <input type="hidden" id="hidCandidateId" value="0" />
+                    <table>
+                        <tr>
+                            <td class="nonselect">Note:</td>
+                            <td><textarea id="textareaNote" rows="4" cols="40" class="ui-widget ui-state-default ui-corner-all"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="nonselect">Progress:</td>
+                            <td>
+                                <select id="selectProgress" class="chosen-select">
+                                    <option value="" selected>Select if required</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button id="btnAddNote" class="ui-button ui-widget ui-corner-all" disabled>Save</button></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <br style="clear:both;" />
+    </div>
+
+    <div id="progressDialog"><div id="progressDialogText"></div></div>
+    <div id="previewDialog"><div id="previewDialogText"></div></div>
+</body>
+</html>
+
+
+

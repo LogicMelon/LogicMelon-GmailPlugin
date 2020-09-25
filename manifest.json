@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+
+  "name": "LogicMelon",
+  "description": "LogicMelon Chrome Extension",
+  "version": "1.0",
+  "author": "Richard Lockwood",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*",
+        "https://inbox.google.com/*"
+      ],
+      "js": [ "inboxsdk.js", "content.js" ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "images/lm-16.png",
+    "default_popup": "popup.html",
+    "default_title":  "LogicMelon"
+  },
+  "permissions": [ "tabs", "http://localhost:4999/*", "https://app.logicmelon.com/", "identity", "identity.email", "activeTab", "downloads" ],
+
+  "background": {
+    "scripts": [
+      "js/jquery-3.4.1.js",
+      "js/jquery-ui.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+
+
+  "web_accessible_resources": [
+    "images/icon48.png"
+  ],
+  "icons": {
+    "16": "images/lm-16.png",
+    "32": "images/lm-32.png",
+    "48": "images/lm-48.png",
+    "128": "images/lm-128.png"
+  }
+}
+ 
